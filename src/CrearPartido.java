@@ -4,7 +4,8 @@ import java.awt.event.KeyEvent;
 
 
 public class CrearPartido extends javax.swing.JFrame
-{
+{//aqui se muestra el principio del main
+    //y mas abajo se encuentran todos las clases refactorizadas
    
     
     private Apuesta v;
@@ -110,7 +111,9 @@ public class CrearPartido extends javax.swing.JFrame
             java.util.logging.Logger.getLogger(CrearPartido.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(CrearPartido.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
+        }/**
+         * 
+         * aqui tenemos un try catch  para evitar posibles fallos a la hora de uso del usuario
         //</editor-fold>
 
         /* Create and display the form */

@@ -9,6 +9,10 @@ import javax.swing.WindowConstants;
  */
 
 public class Apuesta extends javax.swing.JFrame {
+    
+    /*
+    aqui tenemos otro inicio de clase con todos los metodos refactorizados
+    */
 
    
     public Apuesta() 
@@ -163,7 +167,9 @@ public class Apuesta extends javax.swing.JFrame {
                 case 2:
                     partidoresuelto += " -> 2";
                     break;
-            }
+            }/*
+            aqui tenemos un break para salir del bucle cuando la funcion este echa
+            */
             
             modeloquinielaresuelta.addElement(partidoresuelto);
         }
@@ -179,7 +185,9 @@ public class Apuesta extends javax.swing.JFrame {
         for(int i = 0; i < this.listaQuiniela.getModel().getSize(); i++)
         {
             modelonuevo.addElement(this.listaQuiniela.getModel().getElementAt(i));
-        }
+        }/*
+        aqui tenemos un for para leer el array
+        */
         modelonuevo.addElement(partido);
 
         this.listaQuiniela.setModel(modelonuevo);
